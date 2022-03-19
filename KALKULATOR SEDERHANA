@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
 	
-	int bil1,bil2, pil;
+	int angka1,angka2, pilih;
 	float hasil;
 	string operasi;
 	
@@ -18,30 +18,30 @@ int main(){
 	cout<<endl;
 	
 	cout<<"Masukan Pilihan : ";
-	cin>>pil;
+	cin>>operasi;
 	cout<<"Masukan Bilangan pertama : ";
-	cin>>bil1;
+	cin>>angka1;
 	cout<<"Masukan Bilangan kedua : ";
-	cin>>bil2;	
+	cin>>angka2;	
 	
-	switch(pil){
-	        case 1 : hasil=bil1+bil2;
+	switch(operasi){
+	        case 1 : hasil=angka1+angka2;
 			operasi='+';
 			break;
-		case 2 : hasil=bil1-bil2;
+		case 2 : hasil=angka1-angka2;
 			operasi='-';
 			break;
-		case 3 : hasil=bil1*bil2;
+		case 3 : hasil=angka1*angka2;
 			operasi='*';
 			break;
-		case 4 : hasil=bil1/bil2;
+		case 4 : hasil=angka1/angka2;
 			operasi='/';
 			break;
 		default :
 			cout<<"Salah Masukan Operator"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
-	cout<<"       "<<bil1<<operasi<<bil2<<"="<<hasil<<endl;
+	cout<<"       "<<angka1<<operasi<<angka2<<"="<<hasil<<endl;
 	cout<<"-----------------------------"<<endl;
 	
 	getch();
