@@ -8,7 +8,7 @@ int main(){
 	
 	int angka1,angka2, pilih;
 	float hasil;
-	string operasi;
+	int operasi;
 	
 	cout<<"PILIH OPERATOR"<<endl;
 	cout<<"1. Penjumlahan"<<endl;
