@@ -41,7 +41,7 @@ int main(){
 			cout<<"Salah Masukan Operator"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
-	cout<<"       "<<angka1<<operasi<<angka2<<"="<<hasil<<endl;
+	cout<<"      "<<angka1<<operasi<<angka2<<"="<<hasil<<endl;
 	cout<<"-----------------------------"<<endl;
 	
 	getch();
