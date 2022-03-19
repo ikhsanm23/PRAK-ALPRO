@@ -8,7 +8,7 @@ int main(){
 	
 	int angka1,angka2, pilih;
 	float hasil;
-	int operasi;
+	string operasi;
 	
 	cout<<"PILIH OPERATOR"<<endl;
 	cout<<"1. Penjumlahan"<<endl;
@@ -41,7 +41,7 @@ int main(){
 			cout<<"Salah Masukan Operator"<<endl;
 	}
 	cout<<"-----------------------------"<<endl;
-	cout<<"      "<<angka1<<operasi<<angka2<<"="<<hasil<<endl;
+	cout<<"       "<<angka1<<operasi<<angka2<<"="<<hasil<<endl;
 	cout<<"-----------------------------"<<endl;
 	
 	getch();
