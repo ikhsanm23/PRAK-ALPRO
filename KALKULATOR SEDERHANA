@@ -24,7 +24,7 @@ int main(){
 	cout<<"Masukan Bilangan kedua : ";
 	cin>>angka2;	
 	
-	switch(operasi){
+	switch(pilih){
 	        case 1 : hasil=angka1+angka2;
 			operasi='+';
 			break;
