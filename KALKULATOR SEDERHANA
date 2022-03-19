@@ -10,12 +10,11 @@ int main(){
 	float hasil;
 	string operasi;
 	
-	cout<<"PILIH OPERATOR ARITMATIKA"<<endl;
+	cout<<"PILIH OPERATOR"<<endl;
 	cout<<"1. Penjumlahan"<<endl;
 	cout<<"2. Pengurangan"<<endl;
 	cout<<"3. Perkalian"<<endl;
 	cout<<"4. Pembagian"<<endl;
-	cout<<"5. Modulus"<<endl;
 	cout<<endl;
 	
 	cout<<"Masukan Pilihan : ";
@@ -37,9 +36,6 @@ int main(){
 			break;
 		case 4 : hasil=bil1/bil2;
 			operasi='/';
-			break;
-		case 5 : hasil=bil1%bil2;
-			 operasi='%';
 			break;
 		default :
 			cout<<"Salah Masukan Operator"<<endl;
