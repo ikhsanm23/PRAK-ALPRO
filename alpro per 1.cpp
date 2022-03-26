@@ -5,7 +5,7 @@
 using namespace std;
 int main() {
 	
-int menu, jum_beli, bayar,diskon,jumlah[60], harga[60], sub_tot[60];
+int menu, jum_beli, bayar,diskon,jumlah[60],harga[60],sub_tot[60];
 string nam_menu[60];
 float tot;
 
