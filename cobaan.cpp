@@ -2,6 +2,7 @@
 #include <math.h>
 #include <string>
 using namespace std;
+
 int main(){
 	int jarak,pilih,jml;
 	float harga,tot1,tot2,tot3,tot4,tot5,ongkir,total,total2,diskon;
