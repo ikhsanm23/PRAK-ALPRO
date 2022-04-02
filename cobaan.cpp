@@ -10,9 +10,9 @@ int main(){
 	
 	cout<<"1. Nasi Bakar Ayam    : 18000\n";
 	cout<<"2. Nasi Bakar Tongkol : 20000\n";
-	cout<<"3. nasi mix           : 25000\n";
-	cout<<"4. nasi cumi          : 30000\n";
-	cout<<"5. nasi goreng bakar  : 25000\n";
+	cout<<"3. Nasi MIX           : 25000\n";
+	cout<<"4. Nasi Cumi          : 30000\n";
+	cout<<"5. Nasi Goreng Bakar  : 25000\n";
 	
 	
 	do{	
