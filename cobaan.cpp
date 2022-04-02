@@ -92,5 +92,5 @@ int main(){
 	cout<<"Terimakasih Telah Berkunjung di Kedai Kami"<<endl;
 	cout<<" \t   Anda Puas Kami Senang"<<endl;
 		
-	return 0;
+	return 0; 
 }
